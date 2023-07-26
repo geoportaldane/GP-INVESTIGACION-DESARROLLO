@@ -1,0 +1,111 @@
+.Footer {
+    background: $gray13;
+    // position: fixed;
+    padding: 0 10px;
+}
+.Footer__container {
+    margin: 0;
+    @include flex;
+    @include justify-content(center);
+    @include flex-wrap(wrap);
+}
+.Footer__container__titleBox {
+    width: 100%;
+    margin: 10px 0;
+    padding: 10px 0 0 0;
+}
+
+.Footer__container__titleBox__name {
+    color: $gray11;
+    text-align: center;
+    margin: 0;
+    font-weight: 700;
+}
+
+.Footer__container__AboutMore {
+    width: 98%;
+}
+
+.Footer__container__AboutMore__list {
+    list-style: none;
+    padding: 10px 0;
+    margin: 0;
+    @include flex;
+    @include justify-content(space-around);
+    @include flex-wrap(wrap);
+}
+.Footer__container__AboutMore__list__item {
+    margin: 0 5px;
+    padding: 10px 0;
+    width: calc(25% - 10px);
+    @include flex;
+    @include flex-wrap(wrap);
+}
+
+.Footer__container__AboutMore__list__item__icon {
+    width: 20px;
+    height: 20px;
+    padding: 2px;
+    color: #b91450;
+    border: 2px solid #b91450;
+    border-radius: 100%;
+    text-align: center;
+    font-size: 1.2em;
+    line-height: 0;
+}
+
+.Footer__container__AboutMore__list__item__textBox {
+    padding: 0 8px;
+    width: calc(100% - 45px);
+}
+
+.Footer__container__AboutMore__list__item__textBox__title {
+    margin: 3px 0;
+    color: $gray11;
+    font-weight: 600;
+}
+
+.Footer__container__AboutMore__list__item__textBox__text {
+    color: $gray11;
+}
+
+.Footer__container__AboutMore__list__item__textBox__text__bold {
+    font-weight: 600;
+}
+
+.Footer__container__AboutMore__list__item__textBox__text__link {
+    text-decoration: none;
+    color: $gray11;
+}
+.Footer__container__government {
+    width: 300px;
+}
+
+@media screen and (max-width: $sizeTabletLandScape) {
+    .Footer__container__titleBox {
+        padding: 10px 0 0 0;
+    }
+    .Footer__container__AboutMore {
+        width: 100%;
+    }
+    .Footer__container__AboutMore__list {
+        padding: 5px 0;
+    }
+    .Footer__container__AboutMore__list__item {
+        width: 100%;
+        padding: 20px 10px;
+        @include justify-content(center);
+    }
+    .Footer__container__AboutMore__list__item__textBox {
+        width: 100%;
+        margin: 5px 0;
+    }
+    .Footer__container__AboutMore__list__item__textBox__title{
+        text-align: center;
+        margin: 12px 0;
+    }
+    .Footer__container__AboutMore__list__item__textBox__text{
+        text-align: center;
+        margin: 12px 0;
+    }
+}

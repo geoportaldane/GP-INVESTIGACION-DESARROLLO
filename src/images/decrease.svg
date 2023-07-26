@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 24.1.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" baseProfile="tiny" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px"
+	 y="0px" viewBox="0 0 50 50" xml:space="preserve">
+<g id="icon_Names">
+	<rect x="-1.76" y="-6.74" fill="none" width="53.03" height="8.47"/>
+	<text transform="matrix(1 0 0 1 15.2225 -5.2193)" font-family="'OpenSans-Semibold'" font-size="2px">aUMENTAR FUENTE</text>
+</g>
+<g id="guides" display="none">
+	<rect x="45" display="inline" fill="#FC0084" width="5" height="5"/>
+	<rect x="45" y="45" display="inline" fill="#FC0084" width="5" height="5"/>
+	<rect display="inline" fill="#FC0084" width="5" height="5"/>
+	<rect y="45" display="inline" fill="#FC0084" width="5" height="5"/>
+</g>
+<g id="icon">
+	<g>
+		<path d="M44.38,17.18v1.63c0,0.9-0.73,1.63-1.63,1.63h-11.4c-0.9,0-1.63-0.73-1.63-1.63v-1.63c0-0.9,0.73-1.63,1.63-1.63l11.4,0
+			C43.65,15.55,44.38,16.28,44.38,17.18z M31.5,38.55c0.09,0.35,0.1,0.62,0.04,0.79c-0.06,0.17-0.25,0.26-0.56,0.26h-5.34
+			c-0.49,0-0.82-0.11-0.99-0.33c-0.17-0.22-0.33-0.57-0.47-1.03l-1.38-5.13h-8.71l-1.44,5.26c-0.15,0.47-0.33,0.79-0.56,0.97
+			c-0.23,0.17-0.55,0.26-0.95,0.26H6.35c-0.32,0-0.53-0.06-0.65-0.2c-0.12-0.13-0.1-0.44,0.04-0.94l8.31-26.79
+			c0.14-0.41,0.32-0.73,0.52-0.95c0.2-0.22,0.59-0.33,1.16-0.33h5.43c0.6,0,1,0.12,1.18,0.35c0.19,0.23,0.35,0.56,0.49,0.96
+			L31.5,38.55z M21.48,28.23l-2.9-10.76h-0.21l-2.95,10.76H21.48z"/>
+	</g>
+</g>
+</svg>

@@ -1,0 +1,20 @@
+// @charset "UTF-8";
+
+/*============================================================================
+  Geoportal -Descarga | Contenido proyecto
+==============================================================================*/
+
+/*================ BASE ================*/
+@import "./base/mixins.scss";
+@import "./base/variables.scss";
+@import "./base/general.scss";
+// @import "./base/normalize.scss";
+
+
+/*================ COMPONENTS ================*/
+@import "./header.scss";
+@import "./banner.scss";
+@import "./accesibility.scss";
+@import "./home.scss";
+@import "./util.scss";
+@import "./footer.scss";
