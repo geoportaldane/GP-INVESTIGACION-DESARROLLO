@@ -1,0 +1,746 @@
+/* CSS Document */
+#ids {
+    height: 1000px;
+    width: 1000px;
+  }
+
+.clases {
+    height: 1000px;
+    width: 1000px;
+}
+
+/* -----COLOR y TIPOGRAFIA---------------------------------------------------------- */
+
+a {
+    text-decoration: none; /* Quitar si es necesario */
+}
+
+
+.verde_dane_texto {
+    color: #007C76; /* $alternativeColor015 */
+}
+
+.magenta_dane_texto {
+    color: #B91450; /* $principalColor */
+}
+
+.gris_dane_texto {
+    color: #4D4D4D;
+}
+
+.blanco_dane_texto {
+    color: white;
+}
+
+.verde_dane_background {
+    background-color: #007C76; /* $alternativeColor015 */
+}
+
+.magenta_dane_background {
+    background-color:#B91450 ; /* $principalColor */
+}
+
+.gris_dane_background {
+    background-color:#4D4D4D ;
+}
+
+.blanco_dane_background {
+    background-color:white ;
+}
+
+.tipografia_titulo1_git {
+    font-family: Roboto;
+    font-size: 30px;
+    font-weight: 900;
+    text-align: center;
+    margin-bottom: 5px;
+    text-decoration: none;
+
+}
+
+.tipografia_titulo2_git {
+    font-family: Roboto;
+    font-size: 22px;
+    font-weight: 700;
+    margin-top: 20px;
+    margin-bottom: 5px;
+    text-decoration: none;
+
+}
+
+.tipografia_titulo3_git {
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+
+.Tipografia_cuerpo_git {
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 400;
+    text-decoration: none;
+}
+
+
+.linea_titulo1_git {
+    height: 5px;
+    width: 100px;
+    margin-bottom: 30px;
+    margin-right: auto;
+    margin-left: auto;
+    
+}
+
+.linea_titulo2_git {
+    height: 5px;
+    width: 100px;
+    margin-bottom: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    
+}
+
+.git_vineta_color li {
+    color:#007C76; /* $alternativeColor015 */
+    font-size: 25px;
+    
+}
+
+.git_vineta_color li span {
+    color:#4D4D4D;
+    font-size: 18px;
+    
+}
+
+/* ---BÁSICOS------------------------------------------------------------ */
+
+
+
+
+#contenedor_git {
+    height: 100%;
+    width: 100%;
+    padding-top: 50px;
+    background-image: url(https://geoportal.dane.gov.co/src/images/git/git_fondo_blanco.webp);
+	
+}
+
+#caja_git {
+    height:auto;
+    width: 950px;
+    margin: auto;
+    text-align: justify;
+    animation: fadeIn 2.5s ease;
+    
+	
+}
+
+@keyframes fadeIn {
+    0% { opacity: 0;}
+    
+	
+}
+
+.linea_separar_git {
+    height: 2px;
+    width: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+
+	
+}
+
+@media screen and (max-width:800px) {
+
+    #contenedor_git {
+        height: auto;
+        width: 100%;
+        margin-top: 20px;
+        
+    }
+    
+    #caja_git {
+        height:auto;
+        width: 100%;
+        margin: auto;
+        text-align: justify;
+        
+    }
+    
+    .linea_separar_git {
+        height: 2px;
+        width: auto;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    
+        
+    }
+
+    
+}
+
+
+/* Logros Inicio -------------------------*/
+
+.espacio_logros_git {
+    height: 450px;
+    width: 950px;
+    background-color: #007C76;/* $alternativeColor015 */
+    margin: auto;
+    display: block;
+    margin-top: 50px;
+  }
+
+.titulo_logros_git {
+    height: 50px;
+    width: 950px;
+    background-color: #007C76;/* $alternativeColor015 */
+    
+    display: flex;
+    align-items: center;
+    object-position: center;
+  }
+
+.visor_logros_git {
+    height: 400px;
+    width: 950px;
+    background-image:url(https://geoportal.dane.gov.co/src/images/git/git_azul_botones.webp);
+    overflow: auto;
+  }
+
+.visor_secundario_logros_git {
+    height: 390px;
+    width: 910px;
+    margin: 10px;
+    
+  }
+
+.contenedor_x_logros_git {
+    height: 200px;
+    width: 900px;
+  }
+
+.imagen_x_logros_git {
+    height: 200px;
+    width: 200px;
+    float: left;
+    display: block;
+  }
+
+        .imagen_x_logros_git img {
+            height: 190px;
+            width: 190px;
+            margin: 5px;
+            box-shadow: 5px 5px 10px #007C76;/* $alternativeColor015 */;
+        }
+
+.texto_x_logros_git {
+    height: 200px;
+    width: 680px;
+    float: right;
+    margin-left: 10px;
+    object-position: center;
+    align-items: center;
+  }
+
+.corona_logros_git {
+    width: 30px;
+    margin-left: 20px;
+    margin-right: 20px;
+    fill: #FFF;
+    animation-name: corona;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+  }
+
+
+        @keyframes corona {
+            0%   {fill: #007C76; }
+            25%  {fill: #fff; }
+            75%  {fill: #fff; }
+            100% {fill: #007C76; }
+        }
+
+
+@media screen and (max-width:700px) {
+
+    .espacio_logros_git {
+        height: 450px;
+        width: auto;
+    }
+
+    .titulo_logros_git {
+        height: 50px;
+        width: auto;
+      }
+    
+    .visor_logros_git {
+        height: 400px;
+        width: auto;
+      }
+    
+    .visor_secundario_logros_git {
+        height: 390px;
+        width: auto;
+        margin: 10px;
+        
+      }
+    .contenedor_x_logros_git {
+        width: auto;
+        height: auto;
+        overflow: hidden;
+        margin-bottom: 5px;
+      }
+
+    .texto_x_logros_git {
+        height: auto;
+        width: auto;
+        float: left;
+        margin-left: 10px;
+        text-align: center;
+        object-position: center;
+        align-items: center;
+      }
+
+      .imagen_x_logros_git {
+        height: 100px;
+        width: 100px;
+        display: none;
+      }
+    
+            .imagen_x_logros_git img {
+                height: 90px;
+                width: 90px;
+                margin: 2px;
+            }
+                    
+}
+
+
+
+
+
+/* Contactos -------------------------------------------------------*/
+
+#espacio_contactos_git {
+    width: auto;
+    height: 60px;
+    text-align: left;
+    display: flex;
+    align-items: center;
+  }
+
+.icono_contactos_git {
+    height: 60px;
+    fill: #B91450;
+    float: left;
+
+  }
+
+.espacio_icono_contactos_git {
+    width: 60px;
+    height: 60px;
+
+
+  }
+
+.espacio_texto_contactos_git ul li {
+    text-decoration: none;
+    list-style-type: none;
+    padding-left: 0px;
+    align-items: center;
+
+
+  }
+
+
+
+/* Nosotros -------------------------------------------------------*/
+
+.texto_principal_nosotros_git {
+    height: auto;
+    width: auto;
+    margin-bottom: 30px;
+
+	
+}
+
+
+.texto_cont_M_V_nosotros_git {
+    width: 950px;
+    display: flex;
+
+	
+}
+
+
+.imagen_M_V_nosotros_git {
+    height: 132px;
+    width: 400px;
+    flex: 1;
+    
+
+	
+}
+.texto_M_V_nosotros_git {
+    height: auto;
+    width: 450px;
+    margin-left: 50px;
+    flex: 1;
+
+	
+}
+
+
+.boton_nosotros{
+	position: relative;
+	clear:right;
+	width:300px;
+	height:92px;
+	float: left;
+	margin:15px;
+}
+
+.pdf_ilustracion {
+    height: 340px;
+    width: 100%;
+  }
+
+.boton_nosotros img {
+  position: absolute;
+  left: 0;
+  transition: opacity 0.5s ease-in-out;
+}
+
+.boton_nosotros img.top:hover {
+  opacity: 0;
+}
+
+.boton_nosotros_tamano {
+    height: 92px;
+    width: 300;
+}
+
+.imagen_M_V_nosotros_ilustracion_git {
+    height: 336px;
+    width: 400px;
+    flex: 1;
+    float: right;
+	
+}
+
+@media screen and (max-width:900px) {
+
+    .texto_cont_M_V_nosotros_git {
+        width: 100%;
+        display: block;
+    
+        
+    }
+
+    .imagen_M_V_nosotros_git {
+        height: 132px;
+        width: 400px;
+        flex: none;
+        
+    
+        
+    }
+    .texto_M_V_nosotros_git {
+        height: auto;
+        width: auto;
+        margin-left: 0px;
+        margin-top: 10px;
+        flex: none;
+    
+        
+    }
+
+    .imagen_M_V_nosotros_ilustracion_git {
+
+        float:left;
+        
+    }
+
+}
+
+
+/* Líneas de Trabajo -------------------------------------------------------*/
+
+#botones_lineas_git{
+    
+    width: 950px;
+    height: auto;
+    position: relative;
+    display: flex;
+    text-align: center;
+    padding-bottom: 100px;
+
+
+}
+
+#botones_lineas_git img{
+    width: 290px;
+    height: 258px;
+    transition: all 300ms;
+}
+
+
+
+#botones_lineas_git img:hover{
+    transform: scale(1.15);
+}
+
+.boton_x_lineas_git {
+    width: 290px;
+    height:auto;
+    flex: 1;
+	
+}
+
+
+
+@media screen and (max-width:700px) {
+
+    #botones_lineas_git{
+    
+        width: 100%;
+        height: auto;
+        display: block;
+        justify-content: center;
+    
+    
+    }
+
+    .boton_x_lineas_git {
+        margin: auto;
+        
+    }
+
+
+
+}
+
+
+/* Líneas de Trabajo - contenidos -------------------------*/
+
+#contenedor_textos_imagen_lineas_trabajo_git { 
+    width: 950px;
+    height: auto;
+    display: flex;
+    
+}
+
+#espacio_textos_lineas_trabajo_git { 
+    width: 610px;
+    height: auto;
+    display: block;
+    margin-left: 20px;
+    
+
+
+}
+
+#espacio_imagen_lineas_trabajo_git { 
+    width: 310px;
+    height: auto;
+    display: block;
+    
+
+
+}
+
+.icono_imagen_lineas_trabajo_git { 
+    width: 310px;
+    
+
+
+}
+
+.boton_link_lineas_trabajo_git { 
+    width: 250px;
+    height: auto;
+    margin-top: 10px;
+    margin-bottom: 2px;
+    padding: 10px;
+    background-image: url(https://geoportal.dane.gov.co/src/images/git/git_azul_botones.webp);
+    color: white;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    text-align: left;
+
+    border-radius: 30px;
+
+    transition: all 300ms;
+
+
+}
+
+.boton_link_lineas_trabajo_git:hover{
+    transform: scale(1.15);
+    background-image: url(https://geoportal.dane.gov.co/src/images/git/git_magenta_botones.webp);
+
+
+}
+
+.ojo_boton_link_lineas_trabajo_git { 
+    width: 40px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border: solid 1px white;
+
+    border-radius: 30px;
+
+
+
+
+}
+
+.opaco_git { 
+    opacity: 0.5;
+
+}
+
+@media screen and (max-width:700px) {
+
+    #contenedor_textos_imagen_lineas_trabajo_git { 
+        width: 100%;
+        height: auto;
+        display: block;
+        margin: auto;
+        
+    }
+    #espacio_textos_lineas_trabajo_git { 
+        width: 100%;
+        height: auto;
+        display: block;
+        margin: auto;
+        
+    
+    
+    }
+    
+    #espacio_imagen_lineas_trabajo_git { 
+        width: 310px;
+        height: auto;
+        display: block;
+        margin: auto;
+        
+    
+    
+    }
+
+}
+
+/* Líneas de Trabajo - tablas -------------------------*/
+
+.espacio_tabla_ajustable{
+	height: auto; 
+    width: 950px; 
+    overflow: auto;
+}
+
+.espacio_tabla_ajustable::-webkit-scrollbar {
+	width:10px;
+}
+
+.espacio_tabla_ajustable::-webkit-scrollbar-thumb {
+	background:#B91450 ; /* $principalColor */
+	border-radius: 50px;
+
+}
+
+.espacio_tabla_ajustable::-webkit-scrollbar-thumb:hover {
+	background:#FFF;
+
+}
+
+.contenedor_tablas{
+	margin: auto;
+	width: 950px;
+}
+
+.flecha_tablas_git{
+    display: none;
+}
+
+
+.contenedor_tablas table{
+	background-color: white;
+	text-align: left;
+	border-collapse: collapse;
+	width: 100%;
+
+}
+
+.contenedor_tablas th, td{
+	padding: 20px;
+	border: solid #666 /* $gray6: */ 1px;
+}
+
+.contenedor_tablas thead{
+	background-color: #007C76; /* $alternativeColor015 */
+	color: white;
+	
+}
+
+.contenedor_tablas tr:nth-child(even){
+	background-color: #F2F2F2; /* $gray1: */
+	border: solid #666 /* $gray6: */ 1px;
+}
+
+		/*
+		tr th:first-child {
+          border-radius: 15px 0px 0px 0px;
+        }
+        tr th:last-child  {
+          border-radius: 0px 15px 0px 0px;
+        }
+		*/
+
+
+
+.contenedor_tablas tr:hover td{
+	background-color: #DADADA; /* $gray7: */
+	color: #B91450 ; /* $principalColor */
+	border: solid #666 /* $gray6: */ 1px;
+}
+
+
+
+.link_tablas_git { 
+    width: 50px;
+    margin: auto;
+
+    transition: all 300ms;
+
+}
+
+.link_tablas_git:hover { 
+    transform: scale(1.50);
+}
+
+@media screen and (max-width:700px) {
+
+    
+    .espacio_tabla_ajustable{
+        height: auto; 
+        width: 100%; 
+        overflow: auto;
+    }
+    
+    .flecha_tablas_git{
+        width: 950px;
+        display: block;
+    }
+
+}
+
+
+/* FIN -------------------------*/

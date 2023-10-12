@@ -1,23 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>GIT Investigación y Desarrollo</title>
+
+<!-- CSS universal -->
+<link rel="stylesheet" href="estilos.css" type="text/css">
+<!-- Tipografias - Roboto -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap" rel="stylesheet">
 
 
-const Nosotros = () => {
-    return(
-        <div id="contenedor_git">{/* Contenido---------------------------------------- */}
+</head>
+<body>
+    
+    <!-- Contenido---------------------------------------- -->
+    <div id="contenedor_git">
+
+        <div class="tipografia_titulo1_git verde_dane_texto">Nosotros</div>
+        <div class="linea_titulo1_git verde_dane_background"></div>
+
+        <div id="caja_git" class=" Tipografia_cuerpo_git"><!-- caja -->
             
-            
-            <div class="tipografia_titulo1_git verde_dane_texto">Nosotros</div>
-            <div class="linea_titulo1_git verde_dane_background"></div>
-
-            <div id="caja_git" class=" Tipografia_cuerpo_git">{/* caja---------------------------------------- */}
-
-            <div class="texto_principal_nosotros_git gris_dane_texto">
+            <div class="texto_principal_nosotros_git gris_dane_texto"><!-- texto principal -->
                 El Grupo Interno de Trabajo de Investigación y Desarrollo (GIT I+D) hace parte de la Dirección Técnica de Geoestadística del DANE. Está compuesto por talento humano de profesionales y especialistas en diferentes disciplinas, con el propósito de obtener y difundir nuevos conocimientos a partir de la integración de información estadística y espacial, soportado en la exploración y ejecución de métodos y procesos de investigación e innovación geo-estadística, y la implementación de tecnologías y desarrollos para la generación de valor agregado en la producción de información estadística.
             </div>
-
-
-            <div>{/* misión visión---------------------------------------- */}
+            
+            <div><!-- misión visión -->
                 
-                <div class="texto_cont_M_V_nosotros_git">{/* misión ---------------------------------------- */}
+                <div class="texto_cont_M_V_nosotros_git"><!-- misión -->
                     <div >
                      <img class="imagen_M_V_nosotros_git" src="https://geoportal.dane.gov.co/src/images/git/git_mision.webp"/>
                     </div>
@@ -29,12 +41,12 @@ const Nosotros = () => {
 
                     
                 
-                    <div class="linea_separar_git verde_dane_background">{/* Linea---------------------------------------- */}</div>
+                    <div class="linea_separar_git verde_dane_background"><!-- Linea --></div>
 
 
 
 
-                <div class="texto_cont_M_V_nosotros_git">{/* visión---------------------------------------- */}
+                <div class="texto_cont_M_V_nosotros_git"><!-- visión -->
                     <div >
                      <img class="imagen_M_V_nosotros_git" src="https://geoportal.dane.gov.co/src/images/git/git_vision.webp"/>
                     </div>
@@ -44,43 +56,35 @@ const Nosotros = () => {
                     </div>
                 </div>
 
-            </div>{/* FIN misión visión---------------------------------------- */}
+            </div><!-- misión visión fin-->
+
 
             
-            
-            <div class="linea_separar_git magenta_dane_background">{/* Linea---------------------------------------- */}</div>
 
+                <div class="linea_separar_git magenta_dane_background"><!-- Linea --></div>
 
-            <div class="pdf_ilustracion">{/* boton PDF y ilustración---------------------------------------- */}
+                
 
+            <div class="pdf_ilustracion"><!-- boton PDF y ilustración -->
 
-                <div class="boton_nosotros">{/* boton PDF---------------------------------------- */}
+                <div class="boton_nosotros"><!-- boton PDF -->
 
-                    <a href="https://geoportal.dane.gov.co/src/images/git/Participantes_GIT_I+D_2023.pdf" target="_blank">
-                        <img class="boton_nosotros_tamano" src="https://geoportal.dane.gov.co/src/images/git/git_participantes_2.webp" alt="" />
-                        <img class="top boton_nosotros_tamano" src="https://geoportal.dane.gov.co/src/images/git/git_participantes_1.webp" alt="" />
-                    </a>
+                        <a href="https://geoportal.dane.gov.co/descargas/git/Participantes_GIT_I+D_2020.pdf" target="_blank">
+                        <img class="boton_nosotros_tamano" src="https://geoportal.dane.gov.co/src/images/git/git_participantes_2.webp">
+                        <img class="top boton_nosotros_tamano" src="https://geoportal.dane.gov.co/src/images/git/git_participantes_1.webp"></a>
 
                 </div>
-                
-                
-                <div>{/* ilustración---------------------------------------- */}
+
+                <div><!-- Ilustración -->
                     <img class="imagen_M_V_nosotros_ilustracion_git" src="https://geoportal.dane.gov.co/src/images/git/git_nosotroscomic.webp"/>
                 </div>
 
-
             </div>
 
+        </div><!-- caja FIN -->
+
+    </div>
 
 
-            </div>{/* FIN caja---------------------------------------- */}
-
-        
-
-
-
-        </div>/* FIN Contenido---------------------------------------- */
-    );
-}
-
-export default Nosotros;
+</body>
+</html>

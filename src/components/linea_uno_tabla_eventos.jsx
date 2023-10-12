@@ -1,0 +1,220 @@
+const Investigacion = () => {
+    return (
+        
+
+
+        <div id="contenedor_git">{/* Contenido---------------------------------------- */}
+
+                <div class="tipografia_titulo1_git verde_dane_texto">Líneas de Trabajo</div>
+                <div class="linea_titulo1_git verde_dane_background"></div>
+
+                <div id="caja_git" class=" Tipografia_cuerpo_git gris_dane_texto">{/* Caja---------------------------------------- */}
+            
+
+
+
+                 {/* Contenido de TABLAS---------------------------------------- */}
+
+                    
+                        
+                    <div class="tipografia_titulo2_git verde_dane_texto">Integración de información estadística y geoespacial - Eventos<p></p></div>
+                    
+                    
+                        <div class="espacio_tabla_ajustable">
+                        
+                            <div class="flecha_tablas_git"><img src="https://geoportal.dane.gov.co/src/images/git/git_flechas_tablas.webp"/></div>
+                            <div class="contenedor_tablas">
+
+                                <table>
+                                    <thead>
+                                        <tr>
+                                            <th>No.</th><th>Nombre del producto</th><th>Descripción</th><th>Nombre de la iniciativa</th><th>Año</th><th>Descarga</th>
+                                        </tr>
+                                    </thead>
+                        
+                                    
+                                    <tr>{/* FILA---------------------------------------- */}
+                                        <td>001</td>
+                                        <td>Aspectos relevantes en el uso de la información geoespacial como soporte para la medición de indicadores relativos a la Reducción del Riesgo de Desastres.</td>
+                                        <td>Presentación que tuvo como soporte el papel de la ONE en la producción de información estadística integrada con la geospacial para la Reducción y Gestión del Riesgo de Desastres, en la que se presentó el Marco Geoestadístico Nacional (MGN) producido por la Dirección de Geoestadística del DANE, como referencia espacial para todos los miembros del Sistema Estadística Nacional. Además, se abordaron algunas ventajas y retos en la incorporación de la información geoespacial para la medición de indicadores relacionados con la Reducción del Riesgo de Desastres.</td>
+                                        <td>Paralelo “Datos estadísticos e información geoespacial para la RRD” organizado por la CEPAL." en el marco de la VIII Plataforma Regional para la Reducción del Riesgo de Desastres en las Américas y el Caribe (PR23)</td>
+                                        <td>2023</td>
+                                        <td><a href="https://danegovco.sharepoint.com/:b:/r/sites/DANE_ID_2023375_0365/Shared%20Documents/PROGRAMACI%C3%93N/META_1/ENTREGABLE_1_2/GRD_INTERNACIONAL/EVIDENCIAS/2_MARZO/20230301-CEPAL_SideEventGeospatialPR23-DANE.pdf?csf=1&web=1&e=lovYU7" target="_new"><img class="link_tablas_git" src="https://geoportal.dane.gov.co/src/images/git/DANE__Geovisor__icon__link.svg"/></a></td>
+                                    </tr>{/* FIN FILA---------------------------------------- */}
+
+                                    <tr>{/* FILA---------------------------------------- */}
+                                        <td>002</td>
+                                        <td>Sección 7: Aspectos relevantes en el uso de la información geoespacial como soporte para la medición de indicadores ODS relacionados con desastres y del Marco de Sendai</td>
+                                        <td>Uso de información geoespacial en estadísticas relacionadas con los desastres y su relación con la matriz de recomendaciones </td>
+                                        <td>Capacitación en la Matriz de recomendaciones institucionales y metodológicas: usos e implementación, organizada por el Grupo de Trabajo sobre medición y registro de indicadores relativos a la reducción del riesgo de desastres de la Conferencia Estadística de las Américas de la CEPAL.</td>
+                                        <td>2023</td>
+                                        <td><a href="https://danegovco.sharepoint.com/:b:/r/sites/DANE_ID_2023375_0365/Shared%20Documents/PROGRAMACI%C3%93N/META_1/ENTREGABLE_1_2/GRD_INTERNACIONAL/EVIDENCIAS/2_MARZO/20230131-Seccion%207%20Geoespacial%20Matriz%20Interactiva%20DANE.pdf?csf=1&web=1&e=oN3tJn" target="_new"><img class="link_tablas_git" src="https://geoportal.dane.gov.co/src/images/git/DANE__Geovisor__icon__link.svg"/></a></td>
+                                    </tr>{/* FIN FILA---------------------------------------- */}
+
+                                    <tr>{/* FILA---------------------------------------- */}
+                                        <td>003</td>
+                                        <td>Experiencia del DANE en el marco de la elaboración e implementación de la Hoja de Ruta Geoespacial para los ODS</td>
+                                        <td>Tercer Diálogo entre pares que organiza el INE de Paraguay junto a PARIS21 con representantes de 14 países de América Latina y Caribe.  Presentación realizada en el marco del tema 5: La Infraestructura de Datos Espaciales (IDE) y su aporte a una mayor y mejor información georreferenciada, así como sus posibles aportes a una mayor eficiencia y eficacia.</td>
+                                        <td>Episodio 3: El Rol de la Innovación del Diálogo Entre Pares</td>
+                                        <td>2023</td>
+                                        <td><a href="https://www.ine.gov.py/noticias/1529/ine-y-paris21-lideran-conversacion-sobre-innovacion-estadistica-en-la-region" target="_new"><img class="link_tablas_git" src="https://geoportal.dane.gov.co/src/images/git/DANE__Geovisor__icon__link.svg"/></a></td>
+                                    </tr>{/* FIN FILA---------------------------------------- */}
+
+                                    <tr>{/* FILA---------------------------------------- */}
+                                        <td>004</td>
+                                        <td>Post Disaster Needs Assessment (PDNA) online course PNUD</td>
+                                        <td>Evaluación de Necesidades de Recuperación Post - Desastre y Marcos de Recuperación - PNUD - Programa de las Naciones Unidas para el Desarrollo</td>
+                                        <td>Taller Evaluación de Necesidades de Recuperación Post - Desastre y Marcos de Recuperación</td>
+                                        <td>2022</td>
+                                        <td><a href="https://www.undp.org/es/latin-america/evaluaciones-pdna-y-crna" target="_new"><img class="link_tablas_git" src="https://geoportal.dane.gov.co/src/images/git/DANE__Geovisor__icon__link.svg"/></a></td>
+                                    </tr>{/* FIN FILA---------------------------------------- */}
+
+                                    <tr>{/* FILA---------------------------------------- */}
+                                        <td>005</td>
+                                        <td>Aplicación de técnicas alternativas sobre imágenes satelitales y de dron, para el fortalecimiento y actualización del Marco Maestro Rural y Agropecuario (MMRA) del DANE.</td>
+                                        <td>Ponencia realizada en el marco de la primera jornada de la Semana Geomática 2022</td>
+                                        <td>Semana Geomática Internacional 2022 - Novena Edición</td>
+                                        <td>2022</td>
+                                        <td><a href="https://www.youtube.com/watch?v=POvbwKV3K2g" target="_new"><img class="link_tablas_git" src="https://geoportal.dane.gov.co/src/images/git/DANE__Geovisor__icon__link.svg"/></a></td>
+                                    </tr>{/* FIN FILA---------------------------------------- */}
+
+                                    <tr>{/* FILA---------------------------------------- */}
+                                        <td>006</td>
+                                        <td>Calculation of the SDG 11.7.1 indicator based on the integration of statistical information, satellite images and collaborative sources of geospatial data</td>
+                                        <td>Presentación realizada dentro del espacio denominado: Land cover and land use mapping initiatives: advances, results, and challenges in the production of official data </td>
+                                        <td>Using Big Data and Machine Learning for Land Cover and Land Use Mapping: Challenges to Mapping Accuracy</td>
+                                        <td>2022</td>
+                                        <td><a href="https://www.youtube.com/watch?v=BxrjAcfa45o" target="_new"><img class="link_tablas_git" src="https://geoportal.dane.gov.co/src/images/git/DANE__Geovisor__icon__link.svg"/></a></td>
+                                    </tr>{/* FIN FILA---------------------------------------- */}
+
+                                    <tr>{/* FILA---------------------------------------- */}
+                                        <td>007</td>
+                                        <td>Aplicación de la metodología del grado de urbanización (DEGURBA) como clasificación estandarizada de niveles urbano-rural, y definición del universo de ciudades para el cálculo de indicadores ODS 11 en Colombia</td>
+                                        <td>Ponencia realizada en el marco de la convocatoria realizara por el Primer Simposio Internacional Rural y Urbano</td>
+                                        <td>Simposio Internacional Rural y Urbano (I SINARUB)</td>
+                                        <td>2022</td>
+                                        <td><a href="https://www.youtube.com/watch?v=O7A8CcZVE1k" target="_new"><img class="link_tablas_git" src="https://geoportal.dane.gov.co/src/images/git/DANE__Geovisor__icon__link.svg"/></a></td>
+                                    </tr>{/* FIN FILA---------------------------------------- */}
+
+                                    <tr>{/* FILA---------------------------------------- */}
+                                        <td>008</td>
+                                        <td>La información estadística y geoespacial aplicada a la Gestión del Riesgo de Desastres - Buenas prácticas y experiencias como aporte al Marco de Sendai</td>
+                                        <td>Moderación del seminario web que contó con la participación del Servicio Geológico Colombiano, la Universidad EAFIT y de la Dirección de Regulación, Planeación, Estandarización y Normalización- DIRPEN del DANE, en el que se presentaron buenas prácticas y experiencias como aporte al Marco de Sendai entorno a la producción y difusión de la información estadística y geoespacial.</td>
+                                        <td>Seminario web a cargo del DANE en el marco de las actividades adelantadas por el Grupo de Trabajo sobre medición y registro de indicadores relativos a la reducción del riesgo de desastres de la Conferencia Estadística de las Américas de la CEPAL.</td>
+                                        <td>2021</td>
+                                        <td><a href="https://www.youtube.com/watch?v=9hEAR-IsOLo" target="_new"><img class="link_tablas_git" src="https://geoportal.dane.gov.co/src/images/git/DANE__Geovisor__icon__link.svg"/></a></td>
+                                    </tr>{/* FIN FILA---------------------------------------- */}
+
+                                    <tr>{/* FILA---------------------------------------- */}
+                                        <td>009</td>
+                                        <td>Strategic Framework on Geospatial Information and Services for Disasters Assessment Survey - Results & Way Forward</td>
+                                        <td>Panelista del evento paralelo de la sesión 11 de UN-GGIM </td>
+                                        <td>UN-GGIM Working Group on Geospatial Information and Services for Disasters</td>
+                                        <td>2021</td>
+                                        <td><a href="https://www.youtube.com/watch?v=2GzTcET92AU" target="_new"><img class="link_tablas_git" src="https://geoportal.dane.gov.co/src/images/git/DANE__Geovisor__icon__link.svg"/></a></td>
+                                    </tr>{/* FIN FILA---------------------------------------- */}
+
+                                    <tr>{/* FILA---------------------------------------- */}
+                                        <td>010</td>
+                                        <td>Identificación de coberturas del suelo agropecuarias usando algoritmos machine learning en imágenes satelitales Sentinel-2 con la inyección de imágenes RPAS</td>
+                                        <td>Ponencia realizada en la Feria-Congreso Geomática Andina organizada por geo-online en el año 2020</td>
+                                        <td>Feria-Congreso Geomática Andina</td>
+                                        <td>2020</td>
+                                        <td><a href="https://www.youtube.com/watch?v=c2GNOE5TlYU&t=1s" target="_new"><img class="link_tablas_git" src="https://geoportal.dane.gov.co/src/images/git/DANE__Geovisor__icon__link.svg"/></a></td>
+                                    </tr>{/* FIN FILA---------------------------------------- */}
+
+                                    <tr>{/* FILA---------------------------------------- */}
+                                        <td>011</td>
+                                        <td> <p>Mapas del mes</p><p>ArcGIS On Line</p></td>
+                                        <td>A través de la sección Banco de Mapas del Geoportal del DANE,  se ha publicado desde septiembre de 2013 el mapa del mes, con el fin de presentar  temas de actualidad e interes para los usuarios. En la presentación se muestra la evolucion en su generación, pasando de mapas estaticos a dinamicos utilizando el software SIG ArcGIS Online.</td>
+                                        <td>XVIII Conferencia Colombiana de Usuarios Esri</td>
+                                        <td>2016</td>
+                                        <td><a href="https://esri.co/Temas_Esri/CCU2016/Agenda/" target="_new"><img class="link_tablas_git" src="https://geoportal.dane.gov.co/src/images/git/DANE__Geovisor__icon__link.svg"/></a></td>
+                                    </tr>{/* FIN FILA---------------------------------------- */}
+
+                                    <tr>{/* FILA---------------------------------------- */}
+                                        <td>012</td>
+                                        <td>Uso de imagénes de satelite para calcular el uso y cobertura del suelo </td>
+                                        <td>Calcular un indicador que muestra el grado de aglomeración urbana mediante el uso de imágenes de satélite y datos de población.</td>
+                                        <td>2da Conferencia Global Internacional en Big Data para estadisticas oficiales.   </td>
+                                        <td>2015</td>
+                                        <td><a href="https://unstats.un.org/unsd/trade/events/2015/abudhabi/presentations/day2/01/4%20PresentationLandUse_Colombia.pdf" target="_new"><img class="link_tablas_git" src="https://geoportal.dane.gov.co/src/images/git/DANE__Geovisor__icon__link.svg"/></a></td>
+                                    </tr>{/* FIN FILA---------------------------------------- */}
+
+                                    <tr>{/* FILA---------------------------------------- */}
+                                        <td>013</td>
+                                        <td>Uso de imágenes de satélite para estádisticas agropecuarias </td>
+                                        <td>Uso de imagenes de satelite, para la identificacion de las unidades de analisis en estadísticas agropecuarias.</td>
+                                        <td>1era Conferencia Global Internacional en Big Data para estadisticas oficiales.   </td>
+                                        <td>2014</td>
+                                        <td><a href="https://unstats.un.org/unsd/trade/events/2014/Beijing/presentations/day2/morning/2.%20Use%20of%20Satellite%20Images%20for%20Agricultural%20Statistics--Sand.pdf" target="_new"><img class="link_tablas_git" src="https://geoportal.dane.gov.co/src/images/git/DANE__Geovisor__icon__link.svg"/></a></td>
+                                    </tr>{/* FIN FILA---------------------------------------- */}
+
+
+                                    
+                                    
+
+                                </table>
+                    
+                            </div>
+                        
+                        
+                        </div>
+
+                            
+                    
+                
+                        
+
+        {/* ---------------------------------------------------------------------------------------------- */}
+                
+
+
+
+
+
+        <div class="linea_separar_git magenta_dane_background">{/* Linea---------------------------------------- */}</div>
+        {/* -------BOTONES DE LAS LINEAS--------------------------------------------------------------------------------------- */}
+
+                    <div id="botones_lineas_git">
+
+                        <div class="boton_x_lineas_git"> 
+                            <a href="linea_uno_integracion_informacion.html">
+                            <img src="https://geoportal.dane.gov.co/src/images/git/git_linea_1.webp"/> 
+                            <div class="linea_titulo2_git magenta_dane_background"></div>
+                            <div class="tipografia_titulo2_git verde_dane_texto">Integración de información estadística y geoespacial</div>
+                            </a>
+                        </div>
+        
+        
+                        <div class="boton_x_lineas_git"> 
+                            <a href="linea_dos_investigacion_innovacion_geo.html">
+                            <img src="https://geoportal.dane.gov.co/src/images/git/git_linea_2.webp"/> 
+                            <div class="linea_titulo2_git magenta_dane_background"></div>
+                            <div class="tipografia_titulo2_git verde_dane_texto">Investigación/Innovación geo-estadística</div>
+                            </a>
+                        </div>
+        
+        
+                        <div class="boton_x_lineas_git"> 
+                            <a href="linea_tres_produccion_geo.html">
+                            <img src="https://geoportal.dane.gov.co/src/images/git/git_linea_3.webp"/> 
+                            <div class="linea_titulo2_git magenta_dane_background"></div>
+                            <div class="tipografia_titulo2_git verde_dane_texto">Producción geoespacial, geoanalítica y geovisualización</div>
+                            </a>
+                        </div>
+        
+        
+                    </div>
+
+
+                </div>{/* FIN caja---------------------------------------- */}
+
+        {/* FIN Contenido---------------------------------------- */}</div>
+
+
+
+    );
+}
+
+export default Investigacion;

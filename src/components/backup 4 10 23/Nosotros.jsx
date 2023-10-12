@@ -56,7 +56,7 @@ const Nosotros = () => {
 
                 <div class="boton_nosotros">{/* boton PDF---------------------------------------- */}
 
-                    <a href="https://geoportal.dane.gov.co/src/images/git/Participantes_GIT_I+D_2023.pdf" target="_blank">
+                    <a href="https://geoportal.dane.gov.co/descargas/git/Participantes_GIT_I+D_2020.pdf" target="_blank">
                         <img class="boton_nosotros_tamano" src="https://geoportal.dane.gov.co/src/images/git/git_participantes_2.webp" alt="" />
                         <img class="top boton_nosotros_tamano" src="https://geoportal.dane.gov.co/src/images/git/git_participantes_1.webp" alt="" />
                     </a>

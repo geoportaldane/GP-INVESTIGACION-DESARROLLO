@@ -1,0 +1,115 @@
+
+
+const GestionConocimiento = () => {
+    return (
+        
+        <div id="contenedor_git">{/* Contenido---------------------------------------- */}
+
+        <div class="tipografia_titulo1_git verde_dane_texto">Líneas de Trabajo</div>
+        <div class="linea_titulo1_git verde_dane_background"></div>
+
+        <div id="caja_git" class=" Tipografia_cuerpo_git">{/* Caja---------------------------------------- */}
+
+             <div id="contenedor_textos_imagen_lineas_trabajo_git">               
+            
+            
+                            <div id="espacio_imagen_lineas_trabajo_git"> {/* Imagen y links---------------------------------------- */}
+
+                                <img class="icono_imagen_lineas_trabajo_git" src="https://geoportal.dane.gov.co/src/images/git/git_linea_3.webp"/>
+
+                                
+                                    {/* BOTONES---------------------------------------- */}
+
+                                    
+                                        <a href="linea_tres_tabla_produccion_geoespacial.html" class="boton_link_lineas_trabajo_git">
+
+                                            <div><img class="ojo_boton_link_lineas_trabajo_git " src="https://geoportal.dane.gov.co/src/images/git/DANE__Geovisor__icon__eye.svg"/></div>
+                                            <div>Producción geoespacial</div>
+
+                                        </a>
+                                    
+
+
+                            </div>{/* Imagen y links FIN---------------------------------------- */}
+
+
+        {/* ------------------------------------------------------------------------------------------------------------------------------------------------------- */}
+
+
+
+
+                            <div id="espacio_textos_lineas_trabajo_git">
+                            
+                                    <div class="gris_dane_texto">{/* texto principal---------------------------------------- */}
+                                        <p class="tipografia_titulo2_git verde_dane_texto">Producción geoespacial, geoanalítica y geovisualización</p>
+                                        <p class="tipografia_titulo3_git verde_dane_texto">Objetivo: </p>
+                                        <p>Proponer y elaborar productos geoespaciales, geoanalíticos y de geovisualización a demanda, como soporte a los procesos de difusión de información estadística y otras fuentes.</p>
+                                        
+                                        <p></p>
+                                        <p class="tipografia_titulo3_git verde_dane_texto">Efectos: </p>
+                                        <ul class="git_vineta_color">
+                                            <li><span>Generación de productos como soporte de análisis y difusión de las operaciones estadísticas. </span></li>
+                                            <li><span>Incentivar la geovisualización de información estadística desagregada territorialmente. </span></li>
+                                            <li><span>Productos geoespaciales orientados a distintos tipos de usuarios y en diferentes formatos (estáticos, dinámicos) </span></li>
+                                        </ul>
+
+                                        <p></p>
+                                        <p class="tipografia_titulo3_git verde_dane_texto">Logros destacados: </p>
+                                        <ul class="git_vineta_color">
+                                            <li><span>Generación de productos geoespaciales recurrentes para 14 operaciones estadísticas, como soporte a la difusión de resultados en boletines, presentaciones, informes, entre otros.</span></li>
+                                            <li><span>Difusión de visores de mapas temáticos a través del Geoportal del DANE.</span></li>
+                                            
+                                        </ul>
+
+                                    </div>{/* texto principal FIN---------------------------------------- */}
+                            
+                            
+                            </div>
+
+            </div>
+
+
+            <div class="linea_separar_git magenta_dane_background">{/* Linea---------------------------------------- */}</div>
+
+        {/* -------BOTONES DE LAS LINEAS--------------------------------------------------------------------------------------- */}
+
+            <div id="botones_lineas_git">
+
+                <div class="boton_x_lineas_git "> 
+                     <a href="linea_uno_integracion_informacion.html">
+                     <img src="https://geoportal.dane.gov.co/src/images/git/git_linea_1.webp"/> 
+                     <div class="linea_titulo2_git magenta_dane_background"></div>
+                     <div class="tipografia_titulo2_git verde_dane_texto">Integración de información estadística y geoespacial</div>
+                     </a>
+                </div>
+ 
+ 
+                <div class="boton_x_lineas_git"> 
+                     <a href="linea_dos_investigacion_innovacion_geo.html">
+                     <img src="https://geoportal.dane.gov.co/src/images/git/git_linea_2.webp"/> 
+                     <div class="linea_titulo2_git magenta_dane_background"></div>
+                     <div class="tipografia_titulo2_git verde_dane_texto">Investigación/Innovación geo-estadística</div>
+                     </a>
+                 </div>
+ 
+ 
+                <div class="boton_x_lineas_git opaco_git"> 
+                     <a href="#">
+                     <img src="https://geoportal.dane.gov.co/src/images/git/git_linea_3.webp"/> 
+                     <div class="linea_titulo2_git magenta_dane_background"></div>
+                     <div class="tipografia_titulo2_git verde_dane_texto">Producción geoespacial, geoanalítica y geovisualización</div>
+                     </a>
+                 </div>
+ 
+ 
+             </div>
+
+
+        </div>{/* caja FIN---------------------------------------- */}
+
+        {/* FIN Contenido---------------------------------------- */}</div>
+
+    );
+}
+
+export default GestionConocimiento;
